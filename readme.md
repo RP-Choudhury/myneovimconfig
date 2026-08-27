@@ -1,17 +1,16 @@
 #  My Neovim Configuration
 
-> A lightweight, native-pack Neovim configuration, and is mostly gonna make me regret posting it on the internet but yeah. 
+> A lightweight, native-pack Neovim configuration. Does the job.
 
 ---
 
 ##  Overview
 
-Hi, I'm **RP**. This is my daily-driver Neovim setup designed for speed, simplicity, and focused learning. 
+Hi, I'm **RP**. This is the Neovim configuration I am perosnally utilizing and I love it for its simplicity, and focused learning experience I get while coding in it. It helped me finally switch from `Visual Studio Code` to  `Neovim`. 
 
-Instead of relying on heavy third-party package managers or aggressive autocomplete/LSP setups, this configuration leverages Neovim's native package system (`vim.pack` / built-in `packpath`) to ensure zero background updates, minimal startup latency, and maximum stability.
+This configuration does not use any third-party package managers like `lazy-nvim` or `packer`. It uses Neovim's native package manager (`vim.pack`) for installing all of the plugins.
 
-> ⚠️ **Requirement:** **Neovim `v0.12+`** is strictly required. This configuration is **incompatible** with Neovim versions `< 0.12`.
-> ⚠️ **Note:** If you use any other plugin manager, other than **Neovim `v0.12+`'s** defalut plugin manager you may need to rewrite the config files.
+> ⚠️ **Requirement:** **Neovim `v0.12+`** is strictly required. This configuration is **incompatible** with Neovim versions `< 0.12`. The reason for this is because all of the plugins are installed using `vim.pack` which is only available in Neovim versions `> 0.12`. If you use any other plugin manager, other than **Neovim `v0.12+`'s** defalut plugin manager you may need to rewrite the config files.
 
 ---
 
@@ -31,11 +30,11 @@ Instead of relying on heavy third-party package managers or aggressive autocompl
 
 ---
 
-## Package Management: Native `vim-pack`
+## Package Manager: Native `vim-pack` that comes with Nevim `v0.12+` 
 
 This configuration intentionally avoids external plugin managers (such as lazy.nvim, packer, or vim-plug) in favor of Neovim's built-in package system.
 
-### Why native packaging?
+### Why the native pack manager?
 1. **Low Latency & Fast Startup:** No extra overhead or hook-resolution layers. (In other words I have a budget computer and I love ricing.)
 2. **Predictable & Deterministic:** No background downloads, unprompted breaking updates, or unexpected network calls. (In simpler words, since the plugins are all in perpetual beta stage using as less as required is probably optimal. You can't be robbed if ya dont have money.)
 
@@ -50,9 +49,9 @@ You might notice there is **no Language Server Protocol (LSP)** configured in th
 
 ## What to do while waiting for LSP?
 
-- read a book 
-- use vscode
-- use someone elses setup
+- read a book to check for errors manually.
+- use vscode.
+- use someone elses setup.
 
 
 ---
@@ -64,4 +63,12 @@ You might notice there is **no Language Server Protocol (LSP)** configured in th
    nvim --version
 2. Ask an llm like Gemini, ChatGPT, Claude or any thing you like for the next steps since I am still on ThePrimagens git tutorial, will update once I complete the tutorial though.
 
+---
 
+## Contributing
+
+1. Please don't use llms to directly write files for contributions. You are though welcome to list errors or edge cases using it, but please don't use them to open pull requests cause I won't be entertaining them.
+
+2. If you like any funcitonality like LSP's you are free to fork or create them locally on top of this setup. 
+
+# Thank You, truly if you read till the end. I am a college student and am currently learning about git and github so I may not be very proficient in this I hope it can help you.
