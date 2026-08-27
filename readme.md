@@ -30,6 +30,12 @@ This configuration does not use any third-party package managers like `lazy-nvim
 
 ---
 
+## Issues I needed to solve
+
+Most of the plugins did not work with each other especially tressiter, not working with almost everything. And Telescope, where aligning it with the colortheme was extremely hard, but not as hard as fixing treesitter.
+
+---
+
 ## Package Manager: Native `vim-pack` that comes with Neovim `v0.12+` 
 
 This configuration intentionally avoids external plugin managers (such as lazy.nvim, packer, or vim-plug) in favor of Neovim's built-in package system.
@@ -40,6 +46,11 @@ This configuration intentionally avoids external plugin managers (such as lazy.n
 
 ---
 
+## If you still want to use some other package manager? 
+
+For now you can go to each plugin's individual github or documentation page(I have linked the github pages on the list of plugins.), and use thier installation guide for other package managers.
+
+---
 ##  Design Philosophy: Why No LSP (Yet)?
 
 You might notice there is no **Language Server Protocol (LSP)** configured in this setup. This is an intentional choice:
@@ -55,7 +66,7 @@ You can just search for any tutorial on YouTube to add LSP or other plugins but 
 
 - Read the language documentations to check for errors manually.
 - Use `Visual Studio Code`.
-- Use someone else's setup.
+- Think the requirement of an LSP, and coding if AI is eventually going to take our job and we all are gonna be homeless, jobless and broke anyway.
 
 ---
 
@@ -72,6 +83,6 @@ You can just search for any tutorial on YouTube to add LSP or other plugins but 
 
 1. Please don't use llms to directly write files for contributions. You are though welcome to list errors or edge cases using them, but please don't use them to open pull requests cause I won't be entertaining them.
 
-2. If you like any funcitonality like LSP's you are free to fork or create them locally on top of this setup. 
+2. If you want to add any funcitonality like LSP's you are free to fork or create them locally on top of this setup. 
 
 # Thank You, truly if you read till the end. I am a colledge student and am currently learning about git and github so I may not be very proficient in this but I hope it can help you.
