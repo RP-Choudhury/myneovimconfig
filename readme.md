@@ -46,7 +46,7 @@ This configuration intentionally avoids external plugin managers (such as lazy.n
 
 ---
 
-## If you still want to use some other package manager? 
+### If you still want to use some other package manager? 
 
 For now you can go to each plugin's individual github or documentation page(I have linked the github pages on the list of plugins.), and use thier installation guide for other package managers.
 
@@ -58,11 +58,11 @@ You might notice there is no **Language Server Protocol (LSP)** configured in th
 - **Learning-First Mindset:** As a student, relying heavily on LSP autocompletion and instant diagnostics can bypass the valuable learning process of reading compiler outputs, making mistakes, and diagnosing bugs manually.
 - **Stability First:** Resolving conflicts between Treesitter and other plugins took significant fine-tuning. Adding LSP will be considered once I feel the need for them.
 
-## If you really want LSP? 
+### If you really want LSP? 
 
 You can just search for any tutorial on YouTube to add LSP or other plugins but treesitter has scarred me so please check if it breaks anything. It literally broke Telescope. It is probably also the reason I am learning verison control and trying to be proficient so I can avoid updating it, as it will probably break more than it will add.
 
-## What to do while waiting for LSP?
+### What to do while waiting for LSP?
 
 - Read the language documentations to check for errors manually.
 - Use `Visual Studio Code`.
@@ -85,4 +85,4 @@ You can just search for any tutorial on YouTube to add LSP or other plugins but 
 
 2. If you want to add any funcitonality like LSP's you are free to fork or create them locally on top of this setup. 
 
-# Thank You, truly if you read till the end. I am a colledge student and am currently learning about git and github so I may not be very proficient in this but I hope it can help you.
+## Thank You, truly if you read till the end. I am a college student and am currently learning about git and github so I may not be very proficient in this but I hope it can help you.
