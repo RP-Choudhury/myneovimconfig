@@ -1,34 +1,67 @@
-## These are my neovim configuration files. (incompatible for neovim verison < 0.12)
+#  My Neovim Configuration
 
-# Hello, I am RP, and this is my neovim configuration, which I utilize daily for all my coding and 
-# content creation activities. 
+> A lightweight, native-pack Neovim configuration, and is mostly gonna make me regret posting it on the internet but yeah. 
 
-# It contains the following plugins:
+---
 
--- neo-tree.nvim for the file system.
--- Tokyo Night colorscheme & Catppuccin-moccha colorscheme.
--- mini.nvim for auto-pairing quotes and more.
--- lualine.nvim for a very beautiful status line.
--- since the colorscheme of the lualine is catppuccin-mocha, so the config also includes it, meaining you can alternatively use it for as the main colorscheme.
--- telescope.nvim for fzf search of files and grep searching within files and man pages.
--- for git integration, gitsigns.nvim is included.
--- nvim-dap.nvim and nvim-dap-ui.nvim are included for debugging and setup is in deafault for c, c++ and rust, more languages can be added.
--- finally, nvim-treesitter.nvim is configured for neovim 0.12, in such a way that it does not interfere with telescope making it as less buggy as possible.
+##  Overview
 
-# There is no package manager except the default vim-pack. This was done for two reasons:
+Hi, I'm **RP**. This is my daily-driver Neovim setup designed for speed, simplicity, and focused learning. 
 
--- for a simpler and low latency setup. 
--- to make sure auto-download isnt auto-enabled.
+Instead of relying on heavy third-party package managers or aggressive autocomplete/LSP setups, this configuration leverages Neovim's native package system (`vim.pack` / built-in `packpath`) to ensure zero background updates, minimal startup latency, and maximum stability.
 
-# This nvim setup required me a lot of time because plugins like the nvim-treesittere interfered with the other plugins.
-# Hence, I highly suggest using this configuration just how as its availble since I dont know how to code in lua and cannot fix any issues.
-# If this does not run please dont use this config, and please don't send pull request or any kind of suggestions. 
+> ⚠️ **Requirement:** **Neovim `v0.12+`** is strictly required. This configuration is **incompatible** with Neovim versions `< 0.12`.
+> ⚠️ **Note:** If you use any other plugin manager, other than **Neovim `v0.12+`'s** defalut plugin manager you may need to rewrite the config files.
 
-# Oh I forgot, a better verison may be available of this configuration with LSP, since fixing tressitter took so much I did not load any LSP.
-# In the meanwhile you can fix errors manually. Also for context since I am a student I don't think I will be adding LSPs till I am proficient in the
-# language as my main goal will be to learn, and it can kind of steal my experience of making buggy code and fixing it so please make expectations 
-# accordingly.
+---
 
-# I rate this config 6/10.
+
+## Included Plugins
+
+| Category | Plugin | Description |
+| :--- | :--- | :--- |
+| **File Explorer** | [`neo-tree.nvim`](https://github.com/nvim-neo-tree/neo-tree.nvim) | Modern file system and tree navigator. |
+| **Colorschemes** | [`tokyonight.nvim`](https://github.com/folke/tokyonight.nvim) & [`catppuccin`](https://github.com/catppuccin/nvim) | Tokyo Night as primary; Catppuccin Mocha as alternative/theme base. |
+| **Statusline** | [`lualine.nvim`](https://github.com/nvim-lualine/lualine.nvim) | Clean, fast status line styled with the Catppuccin Mocha theme. |
+| **Editing & Pairs** | [`mini.nvim`](https://github.com/echasnovski/mini.nvim) | Fast auto-pairing for quotes, brackets, and handy utilities. |
+| **Fuzzy Finder** | [`telescope.nvim`](https://github.com/nvim-telescope/telescope.nvim) | Interactive fzf search for files, live-grep search across buffers, and man pages. |
+| **Git Integration** | [`gitsigns.nvim`](https://github.com/lewis6991/gitsigns.nvim) | Git change indicators in the sign column and inline diffs. |
+| **Debugging (DAP)** | [`nvim-dap`](https://github.com/mfussenegger/nvim-dap) & [`nvim-dap-ui`](https://github.com/rcarriga/nvim-dap-ui) | Step debugging out of the box for **C**, **C++**, and **Rust** (expandable to more). |
+| **Syntax Highlighting** | [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter) | Optimized for Neovim 0.12, tuned specifically to prevent collisions with Telescope. |
+
+---
+
+## Package Management: Native `vim-pack`
+
+This configuration intentionally avoids external plugin managers (such as lazy.nvim, packer, or vim-plug) in favor of Neovim's built-in package system.
+
+### Why native packaging?
+1. **Low Latency & Fast Startup:** No extra overhead or hook-resolution layers. (In other words I have a budget computer and I love ricing.)
+2. **Predictable & Deterministic:** No background downloads, unprompted breaking updates, or unexpected network calls. (In simpler words, since the plugins are all in perpetual beta stage using as less as required is probably optimal. You can't be robbed if ya dont have money.)
+
+---
+
+##  Design Philosophy: Why No LSP (Yet)?
+
+You might notice there is **no Language Server Protocol (LSP)** configured in this setup. This is an intentional choice:
+
+- **Learning-First Mindset:** As a student, relying heavily on LSP autocompletion and instant diagnostics can bypass the valuable learning process of reading compiler outputs, making mistakes, and diagnosing bugs manually.
+- **Stability First:** Resolving conflicts between Treesitter and other plugins took significant fine-tuning. Adding LSP will be considered once I feel the need for them now, you can add them yourself if you wanna.
+
+## What to do while waiting for LSP?
+
+- read a book 
+- use vscode
+- use someone elses setup
+
+
+---
+
+##  Installation & Usage
+
+1. Ensure your Neovim version is **0.12 or newer**:
+   ```bash
+   nvim --version
+2. Ask an llm like Gemini, ChatGPT, Claude or any thing you like for the next steps since I am still on ThePrimagens git tutorial, will update once I complete the tutorial though.
 
 
