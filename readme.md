@@ -6,11 +6,11 @@
 
 ##  Overview
 
-Hi, I'm **RP**. This is the Neovim configuration I am perosnally utilizing and I love it for its simplicity, and focused learning experience I get while coding in it. It helped me finally switch from `Visual Studio Code` to  `Neovim`. 
+Hi, I'm **RP**. This is the Neovim configuration I am perosnally utilizing and I love it for its simplicity, low ram consumption and just the focused learning experience I get while coding in it. It helped me finally switch from `Visual Studio Code` to  `Neovim`. 
 
 This configuration does not use any third-party package managers like `lazy-nvim` or `packer`. It uses Neovim's native package manager (`vim.pack`) for installing all of the plugins.
 
-> ⚠️ **Requirement:** **Neovim `v0.12+`** is strictly required. This configuration is **incompatible** with Neovim versions `< 0.12`. This is because all of the plugins are installed using `vim.pack` which is only available in Neovim versions `> 0.12`. If you use any other plugin manager, other than **Neovim `v0.12+`'s** default plugin manager you may need to rewrite the config files.
+> ⚠️ **Requirement:** **Neovim `v0.12+`** is strictly required. This configuration is **incompatible** with Neovim versions `< 0.12`. This is because all of the plugins are installed using `vim.pack` which is only available in Neovim versions `> 0.12`. If you use any other plugin manager, other than `vim.pack` you may need to rewrite the config files.
 
 ---
 
@@ -36,22 +36,26 @@ This configuration intentionally avoids external plugin managers (such as lazy.n
 
 ### Why the native pack manager?
 1. **Low Latency & Fast Startup:** No extra overhead or hook-resolution layers. (In other words I have a budget computer and I love ricing.)
-2. **Predictable & Deterministic:** No background downloads, unprompted breaking updates, or unexpected network calls. (In simpler words, since the plugins are all in perpetual beta stage using as little plugins is optimal and vim.pack is perfect for this as you dont have to download a package manger(another plugin) and it does not auto-update, so whatever works now works later.)
+2. **Predictable & Deterministic:** No background downloads, unprompted breaking updates, or unexpected network calls. (In simpler words, since the plugins are all in perpetual beta stage using as little plugins is optimal and vim.pack is perfect for this as you dont have to download a package manger(another plugin) and it does not auto-update, so if something works now it will work later too.)
 
 ---
 
 ##  Design Philosophy: Why No LSP (Yet)?
 
-You might notice there is **no Language Server Protocol (LSP)** configured in this setup. This is an intentional choice:
+You might notice there is no **Language Server Protocol (LSP)** configured in this setup. This is an intentional choice:
 
 - **Learning-First Mindset:** As a student, relying heavily on LSP autocompletion and instant diagnostics can bypass the valuable learning process of reading compiler outputs, making mistakes, and diagnosing bugs manually.
-- **Stability First:** Resolving conflicts between Treesitter and other plugins took significant fine-tuning. Adding LSP will be considered once I feel the need for them now, you can add them yourself if you wanna.
+- **Stability First:** Resolving conflicts between Treesitter and other plugins took significant fine-tuning. Adding LSP will be considered once I feel the need for them.
+
+## If you really want LSP? 
+
+You can just search for any tutorial on YouTube to add LSP or other plugins but treesitter has scarred me so please check if it breaks anything. It literally broke Telescope. It is probably also the reason I am learning verison control and trying to be proficient so I can avoid updating it, as it will probably break more than it will add.
 
 ## What to do while waiting for LSP?
 
-- read the language documentations to check for errors manually.
-- use VSCode.
-- use someone else's setup.
+- Read the language documentations to check for errors manually.
+- Use `Visual Studio Code`.
+- Use someone else's setup.
 
 ---
 
@@ -66,8 +70,8 @@ You might notice there is **no Language Server Protocol (LSP)** configured in th
 
 ## Contributing
 
-1. Please don't use llms to directly write files for contributions. You are though welcome to list errors or edge cases using it, but please don't use them to open pull requests cause I won't be entertaining them.
+1. Please don't use llms to directly write files for contributions. You are though welcome to list errors or edge cases using them, but please don't use them to open pull requests cause I won't be entertaining them.
 
 2. If you like any funcitonality like LSP's you are free to fork or create them locally on top of this setup. 
 
-# Thank You, truly if you read till the end. I am a colledge student and am currently learning about git and github so I may not be very proficient in this I hope it can help you.
+# Thank You, truly if you read till the end. I am a colledge student and am currently learning about git and github so I may not be very proficient in this but I hope it can help you.
