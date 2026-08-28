@@ -7,7 +7,7 @@ Thank you for your interest in contributing.
 1. **Fork** this repository on GitHub.
 2. **Clone** your fork locally:
    ```bash
-   git clone [https://github.com/RP-Choudhury/myneovimconfig.git](https://github.com/RP-Choudhury/myneovimconfig.git)
+   git clone https://github.com/RP-Choudhury/myneovimconfig.git
    cd myneovimconfig
 3. Create a **new branch** for your feature or bug fix
    ```bash
