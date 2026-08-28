@@ -84,8 +84,24 @@ You can just search for any tutorial on YouTube to add LSP or other plugins but 
 1. Ensure your Neovim version is **0.12 or newer**:
    ```bash
    nvim --version
-2. Ask an llm like Gemini, ChatGPT, Claude or any thing you like for the next steps since I am still on ThePrimagens Git tutorial; Will update this once I complete the tutorial though.
+   
+2. Clone the repository in your Neovim configuration directory:
+-  macOS/Linux/WSL:
+   ```bash
+   git clone https://github.com/RP-Choudhury/myneovimconfig ~/.config/nvim
 
+-  Windows (Powershell):
+   ```powershell
+   git clone https://github.com/RP-Choudhury/myneovimconfig $env:LOCALAPPDATA\\nvim
+
+3. Source Files:
+   ```bash
+   source ~/.config/nvim
+
+4. Run Neovim:
+   ```bash
+   nvim
+   
 ---
 
 ## Credits
