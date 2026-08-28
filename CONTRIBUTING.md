@@ -21,6 +21,7 @@ Thank you for your interest in contributing.
     
    ```bash
    git config --global core.editor "nvim"
+   git commit
    ```
    To add your commit message using neovim
 
