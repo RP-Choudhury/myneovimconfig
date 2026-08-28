@@ -20,19 +20,19 @@ This configuration does not use any third-party package managers like `lazy-nvim
 | Category | Plugin | Description |
 | :--- | :--- | :--- |
 | **File Explorer** | [`neo-tree.nvim`](https://github.com/nvim-neo-tree/neo-tree.nvim) | Modern file system and tree navigator. |
-| **Colorschemes** | [`tokyonight.nvim`](https://github.com/folke/tokyonight.nvim) & [`catppuccin`](https://github.com/catppuccin/nvim) | Tokyo Night as primary; Catppuccin Mocha as alternative/theme base. |
-| **Statusline** | [`lualine.nvim`](https://github.com/nvim-lualine/lualine.nvim) | Clean, fast status line styled with the Catppuccin Mocha theme. |
+| **Colorschemes** | [`tokyonight.nvim`](https://github.com/folke/tokyonight.nvim) & [`catppuccin`](https://github.com/catppuccin/nvim) | `toyonight.nvim` serves as primary colorscheme; `catppuccin.nvim` serves as the theme for `lualine.nvim`, can be easily configured to be main colorscheme.|
+| **Statusline** | [`lualine.nvim`](https://github.com/nvim-lualine/lualine.nvim) | Clean, fast status line styled with the `catppuccin.nvim` theme. |
 | **Editing & Pairs** | [`mini.nvim`](https://github.com/echasnovski/mini.nvim) | Fast auto-pairing for quotes, brackets, and handy utilities. |
-| **Fuzzy Finder** | [`telescope.nvim`](https://github.com/nvim-telescope/telescope.nvim) | Interactive fzf search for files, live-grep search across buffers, and man pages. |
-| **Git Integration** | [`gitsigns.nvim`](https://github.com/lewis6991/gitsigns.nvim) | Git change indicators in the sign column and inline diffs. |
+| **Fuzzy Finder** | [`telescope.nvim`](https://github.com/nvim-telescope/telescope.nvim) | Interactive fzf search for files, live-grep search across buffers, and man pages. (configured especially to work in sync with `nvim-tressitter` and `tokyonight.nvim`) |
+| **Git Integration** | [`gitsigns.nvim`](https://github.com/lewis6991/gitsigns.nvim) | Git change indicators in the sign column and numbers. Can be configured to highlight instead of showing sign column or number highlighting. |
 | **Debugging (DAP)** | [`nvim-dap`](https://github.com/mfussenegger/nvim-dap) & [`nvim-dap-ui`](https://github.com/rcarriga/nvim-dap-ui) | Step debugging out of the box for **C**, **C++**, and **Rust** (expandable to more). |
-| **Syntax Highlighting** | [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter) | Optimized for Neovim 0.12, tuned specifically to prevent collisions with Telescope. |
+| **Syntax Highlighting** | [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter) | Optimized for Neovim 0.12, tuned specifically to prevent collisions with `telescope.nvim`. |
 
 ---
 
-## Issues I needed to solve
+## Issues I solved
 
-Most of the plugins did not work with each other especially tressiter, not working with almost everything. And Telescope, where aligning it with the colortheme was extremely hard, but not as hard as fixing treesitter.
+Most of the plugins did not work with each other especially treesitter, not working with almost everything. And Telescope, where aligning it with the colortheme was extremely hard, but not as hard as fixing treesitter.
 
 ---
 
