@@ -29,7 +29,7 @@ Thank you for your interest in contributing.
 
 ## What to expect:
 
-This project is single-handedly managed currently  by me, and may not entertain **Pull Requests** as much as other projects.
+This project is single-handedly managed currently by me, and may not entertain **Pull Requests** as much as other projects.
 
 
 
