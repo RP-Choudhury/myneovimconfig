@@ -79,10 +79,11 @@ You can just search for any tutorial on YouTube to add LSP or other plugins but 
 
 ---
 
-## Contributing
+## Credits
 
-1. Please don't use llms to directly write files for contributions. You are though welcome to list errors or edge cases using them, but please don't use them to open pull requests cause I won't be entertaining them.
+### Thank You, truly if you read till the end. I am a college student and am currently learning about git and github so I may not be very proficient in the repository & neovim business, but I hope it can help you.
 
-2. If you want to add any funcitonality like LSP's you are free to fork or create them locally on top of this setup. 
-
-## Thank You, truly if you read till the end. I am a college student and am currently learning about git and github so I may not be very proficient in this but I hope it can help you.
+* **Contributor:** R.P. Choudhury (owner)
+* **Github:** [@RP-Choudhury](https://github.com/RP-Choudhury)
+* **LinkedIN:** [Rudra Pratap Choudhury](https://www.linkedin.com/in/rudra-pratap-choudhury)
+* **License:** Distributed under the [MIT License](LICENSE).
