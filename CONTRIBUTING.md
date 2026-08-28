@@ -1,0 +1,34 @@
+# Contributing Guidelines
+
+Thank you for your interest in contributing. 
+
+## Workflow
+
+1. **Fork** this repository on GitHub.
+2. **Clone** your fork locally:
+   ```bash
+   git clone [https://github.com/your-username-here/your-repo-name-here.git](https://github.com/your-username/your-repo-name.git)
+   cd your-repo-name-here
+3. Create a **new branch** for your feature or bug fix
+   ```bash
+   git checkout -b feature/your-branch-name-here
+
+4. Commit your changes using clear, descriptive messages
+   ```bash
+   git commit -m "feat: add your-feature-desciption-here"
+   ```
+   Alternatively:
+    
+   ```bash
+   git config --global core.editor "nvim"
+   ```
+   To add your commit message using neovim
+
+5. Push to your branch and open a **Pull Request (PR)** against the `main` branch.
+
+## What to expect:
+
+This project is a solo developer currrently only managed by me, and may not entertain **Pull Requests** as much as other projects.
+
+
+
