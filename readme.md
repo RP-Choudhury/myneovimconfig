@@ -85,5 +85,5 @@ Thank You, truly if you read till the end. I am a college student and am current
 
 * **Contributor:** R.P. Choudhury (owner)
 * **Github:** [@RP-Choudhury](https://github.com/RP-Choudhury)
-* **LinkedIN:** [Rudra Pratap Choudhury](https://www.linkedin.com/in/rudra-pratap-choudhury)
+* **LinkedIn:** [Rudra Pratap Choudhury](https://www.linkedin.com/in/rudra-pratap-choudhury)
 * **License:** Distributed under the [MIT License](LICENSE).
