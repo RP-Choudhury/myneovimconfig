@@ -13,6 +13,15 @@ This configuration does not use any third-party package managers like `lazy-nvim
 > ⚠️ **Requirement:** **Neovim `v0.12+`** is strictly required. This configuration is **incompatible** with Neovim versions `< 0.12`. This is because all of the plugins are installed using `vim.pack` which is only available in Neovim versions `> 0.12`. If you use any other plugin manager, other than `vim.pack` you may need to rewrite the config files.
 
 ---
+## Demo
+
+Using Ghostty Terminal Emulator:
+<img width="1637" height="1024" alt="image" src="https://github.com/user-attachments/assets/97998ab3-fe6e-4b76-8f7d-3bb9f180f123" />
+
+Using MacOS Terminal App:
+<img width="1637" height="1024" alt="image" src="https://github.com/user-attachments/assets/570537c8-63f9-46cb-bc62-e4422f77c0cf" />
+
+___
 
 
 ## Included Plugins
