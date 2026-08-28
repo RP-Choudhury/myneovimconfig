@@ -81,7 +81,7 @@ You can just search for any tutorial on YouTube to add LSP or other plugins but 
 
 ## Credits
 
-### Thank You, truly if you read till the end. I am a college student and am currently learning about git and github so I may not be very proficient in the repository & neovim business, but I hope it can help you.
+Thank You, truly if you read till the end. I am a college student and am currently learning about git and github so I may not be very proficient in the repository & neovim business, but I hope it can help you.
 
 * **Contributor:** R.P. Choudhury (owner)
 * **Github:** [@RP-Choudhury](https://github.com/RP-Choudhury)
